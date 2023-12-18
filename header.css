@@ -1,11 +1,11 @@
 nav {
   width: 100%;
-  background-color: lavendergray;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color: #b6b5d8;
+  box-shadow: 0 0 10px rgb(0 0 0 / 80%);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #301934;
 }
 
 nav img {
@@ -13,21 +13,28 @@ nav img {
   margin-left: 70px;
 }
 
-.Your Rose 🌹 {
+.contact {
   display: flex;
-  href="https://twitter.com/i96pmi"
   justify-content: right;
 }
 
-.Your Rose 🌹 {
+.contact a {
   font-weight: bold;
   margin-right: 100px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-.Your Rose 🌹:hover {
-  color: darkblue;
+.contact a:hover {
+  color: #646490;
 }
 
+@media (max-width: 500px) {
+  nav img {
+    margin-left: 30px;
+  }
+  .contact a {
+    margin-right: 40px;
+    font-size: 14px;
+  }
 }
