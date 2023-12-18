@@ -18,7 +18,6 @@ genText.addEventListener("click", function() {
     "Sua profundidade é cativante",
     "You are my soulmate",
     "Penso em você 24/7",
-    "“Eu realmente acredito que, embora o amor possa ferir ele também seja capaz de curar” —  Nicholas Sparks ",
     
   ]
   const textEl = document.querySelector(".textMessage")
