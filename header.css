@@ -13,28 +13,21 @@ nav img {
   margin-left: 70px;
 }
 
-.contact {
+.Your Rose 🌹 {
   display: flex;
+  href="https://twitter.com/i96pmi"
   justify-content: right;
 }
 
-.contact a {
+.Your Rose 🌹 {
   font-weight: bold;
   margin-right: 100px;
   text-decoration: none;
   color: black;
 }
 
-.contact a:hover {
+.Your Rose 🌹:hover {
   color: darkblue;
 }
 
-@media (max-width: 500px) {
-  nav img {
-    margin-left: 30px;
-  }
-  .contact a {
-    margin-right: 40px;
-    font-size: 14px;
-  }
 }
