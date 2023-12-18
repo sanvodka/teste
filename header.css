@@ -1,7 +1,7 @@
 nav {
-  width: 100%;
+  width: 100;
   background-color: #b6b5d8;
-  box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +10,7 @@ nav {
 
 nav img {
   width: 130px;
-  margin-left: 70px;
+  margin-left: 51px;
 }
 
 .contact {
@@ -22,11 +22,11 @@ nav img {
   font-weight: bold;
   margin-right: 100px;
   text-decoration: none;
-  color: white;
+  color: 690f69;
 }
 
 .contact a:hover {
-  color: #646490;
+  color: #690f69;
 }
 
 @media (max-width: 500px) {
